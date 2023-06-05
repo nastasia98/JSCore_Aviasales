@@ -1,0 +1,16 @@
+.showButton {
+  margin-top: 20px;
+  width: 500px;
+  height: 50px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 1px 1px 5px 0 #a0b0b9;
+    transition: all 0.1s ease-in-out;
+  }
+}

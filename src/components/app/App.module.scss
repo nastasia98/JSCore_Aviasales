@@ -1,0 +1,28 @@
+.app {
+  width: 100%;
+  background-color: #f3f7fa;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  padding-bottom: 30px;
+  flex-direction: column;
+
+  @media screen and (max-width: 805px) {
+    min-width: 520px;
+  }
+}
+
+.logo {
+  display: block;
+  margin: 50px auto;
+}
+
+.main {
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+
+  @media screen and (max-width: 805px) {
+    flex-direction: column;
+  }
+}

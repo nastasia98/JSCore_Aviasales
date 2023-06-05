@@ -1,0 +1,22 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 50px auto;
+  color: #2196f3;
+  font-size: 14px;
+}
+
+.logo {
+  animation: move 2s infinite linear;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
