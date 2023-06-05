@@ -22,7 +22,6 @@
   },
   "parser": "@babel/eslint-parser",
   "rules": {
-    "indent": ["error", 2],
     "no-alert": "off",
     "prettier/prettier": "off",
     "linebreak-style": [0, "unix"],
